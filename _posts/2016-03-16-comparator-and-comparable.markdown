@@ -9,7 +9,7 @@ Are the two things that I was not knowing well. It happened that I messed them t
 
 The Comparator is defined as 
 
-```java
+```Java
     public interface Comparator<T> 
     {
         int compare(T o1, T o2);
@@ -21,7 +21,7 @@ and is used to compare two objects. The comparator may use different ordering st
 
 The Comparable is defined as
 
-```java
+```Java
     public interface Comparable<T>
     {
         int compareTo(T o);
