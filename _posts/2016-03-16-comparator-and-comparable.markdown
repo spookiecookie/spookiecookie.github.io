@@ -7,7 +7,7 @@ categories: [java]
 ---
 Are the two things that I was not knowing well. It happened that I messed them together. They are different. 
 
-The Comparator is defined as 
+The Comparator is defined in `java.util` as 
 
 ```java
 public interface Comparator<T>
@@ -19,7 +19,7 @@ public interface Comparator<T>
 
 and is used to compare two objects. The comparator may use different ordering strategy than one defined by natural ordering of objects compared.
 
-The Comparable is defined as
+The Comparable is defined in `java.lang` as
 
 ```java
 public interface Comparable<T>
@@ -29,3 +29,4 @@ public interface Comparable<T>
 ```
 
 and is used to impose a natural ordering on objects of the class that implements this Comparable.
+
