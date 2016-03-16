@@ -22,10 +22,10 @@ and is used to compare two objects. The comparator may use different ordering st
 The Comparable is defined as
 
 ```java
-    public interface Comparable<T>
-    {
-        int compareTo(T o);
-    }
+public interface Comparable<T>
+{
+    int compareTo(T o);
+}
 ```
 
 and is used to impose a natural ordering on objects of the class that implements this Comparable.
