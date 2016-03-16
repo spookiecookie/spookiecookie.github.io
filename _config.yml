@@ -1,0 +1,8 @@
+excerpt_separator: ""
+pygments: true
+markdown: kramdown
+url: http://spookiecookie.github.io
+title: Java blog
+tagline: A log of learning Java
+description: I am learning Java and this is where I post my thoughts.
+paginate: 5
