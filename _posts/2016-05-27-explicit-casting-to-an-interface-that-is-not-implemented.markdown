@@ -1,6 +1,6 @@
 ---
 published: true
-title: Explicit casting to an interface that is not implemented
+title: Explicit casting to an unimplemented interface
 layout: post
 tags: [java, explicit, casting, interface]
 categories: [java, casting, interface]
@@ -12,7 +12,7 @@ public interface Blog
 {
 }
 
-public class Book
+public class Book //doesn't implement Blog interface
 {
 }
 
