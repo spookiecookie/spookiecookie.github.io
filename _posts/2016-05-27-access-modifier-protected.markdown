@@ -5,6 +5,7 @@ layout: post
 ---
 Access modifier protected allows to access instance member of the class from other package or instance member of the base base class by using inheritance... but not using reference variable.
 
+```java
 package bpackage;
 public class Base 
 {
@@ -27,3 +28,4 @@ public class Derived
         System.out.println(b.member); //compilation-time error  :)
     }
 }
+```
