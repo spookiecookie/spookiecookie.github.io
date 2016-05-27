@@ -2,6 +2,8 @@
 published: true
 title: Abstract class' constructor
 layout: post
+tags: [abstract, class, constructor, java]
+categories: [java, constructor]
 ---
 Abstract class can have explicit constructor.
 
@@ -26,4 +28,3 @@ public class DerivedClass
     }
 }
 ```
-
